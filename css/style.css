@@ -78,7 +78,7 @@ border-radius: 4px;
 
 .container-menu{
     width: 100%;
-    background-color: #4A4A4A;
+    background-color: #222222;
     /* position: fixed; */
     height: 80px;
     position: fixed;
@@ -97,6 +97,7 @@ border-radius: 4px;
 
  .buttons{
     display: flex;
+    color: white;
     
  }   
 
@@ -107,9 +108,16 @@ border-radius: 4px;
     align-content: center;
     align-items: center;
     padding: 0 10px;
-    color: white;
+    
 } 
 
 .menu-icons{
-    font-size: 20px;
+    font-size: 28px;
+}
+
+.end-button{
+    background-color: rgb(65, 64, 64);
+    color: red;
+    padding: 30px 15px;
+    
 }
