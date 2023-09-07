@@ -25,7 +25,7 @@ a{
 
 .container{
     margin: 0 auto;
-    padding: 40px 50px 0px;
+    padding: 60px 50px 0px;
     /* margin-bottom: 100px; */
 }
 
@@ -51,7 +51,7 @@ img{
 
 .user-webcam{
     /* background-color: white; */
-    flex-basis: 200px;
+    flex-basis: 250px;
     /* flex-grow: 1; */
    
 }
@@ -88,7 +88,7 @@ border-radius: 4px;
 }
 
 .container-menu{
-    width: 100%;
+    width: 100vw;
     background-color: #222222;
     position: fixed;
     height: 80px;
@@ -103,6 +103,7 @@ border-radius: 4px;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
  .buttons{
