@@ -8,12 +8,22 @@
     background-color: black;
     height: 100vh;
     width: 100%;
+    overflow-y: hidden;
 }
 
 .container{
     margin: 0 auto;
-    padding: 30px 30px 40px;
+    padding: 60px 100px 80px;
+    width: auto;
 }
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
 .debug{
     border: solid 1px white;
 }
@@ -21,13 +31,19 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 8px;
+    gap: 14px 8px;
+    
     
     
 
 }
 
 .user-webcam{
-    background-color: white;
-    flex-basis: calc((100% / 7) - 150px);
+    /* background-color: white; */
+    flex-basis: calc((100% - 208px) / 7 );
+    flex-grow: 1;
+}
+
+.container > a{
+    display: inline-block;
 }
