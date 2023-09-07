@@ -71,9 +71,9 @@ border-radius: 4px;
     position: absolute;
     left: 0;
     bottom: 0;
-    color: white;
+    color: rgb(231, 230, 230);
     padding: 6px 6px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .container-menu{
@@ -91,20 +91,25 @@ border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
+    height: 100%;
 }
 
  .buttons{
     display: flex;
-    padding-left: 20px;
+    
  }   
 
 
-/* .button-composition{
+.button-composition{
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-
+    padding: 0 10px;
+    color: white;
 } 
- */
+
+.menu-icons{
+    font-size: 20px;
+}
