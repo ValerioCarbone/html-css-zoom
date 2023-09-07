@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.main-bg{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 30px 30px 40px 30px;
+}
+.debug{
+    border: solid 1px white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+
+}
+
+.user-webcam{
+    background-color: white;
+    flex-basis: calc((100% / 7) - 30px);
+}
