@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+figure{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -14,20 +19,21 @@ a{
     background-color: black;
     height: 100vh;
     width: 100%;
-    /* overflow-y: hidden; */
+    overflow: auto;
     position: relative;
 }
 
 .container{
     margin: 0 auto;
-    padding: 80px 100px 30px;
-    width: auto;
+    padding: 50px 100px 80px;
+    margin-bottom: 100px;
 }
+
 
 img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    display: block;
 }
 
 
@@ -39,20 +45,24 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 14px 8px;
-    }
+    justify-content: center;
+    height: 100%;
+}
 
 .user-webcam{
     /* background-color: white; */
     flex-basis: 200px;
     /* flex-grow: 1; */
-    position: relative;
+   
 }
 
 
 .top-icons{
-    position: absolute;
+    position: fixed;
     top: 8px;
     right: 8px;
+    z-index: 99;
+    
 }
 
 .speaker-icon, .expand-icon{
@@ -60,6 +70,7 @@ background-color: #4A4A4A;
 padding: 5px 6px;
 display: inline-block;
 border-radius: 4px;
+
 }
 
 .speaker-icon{
@@ -72,16 +83,15 @@ border-radius: 4px;
     left: 0;
     bottom: 0;
     color: rgb(231, 230, 230);
-    padding: 6px 6px;
+    padding: 6px 0;
     font-weight: 500;
 }
 
 .container-menu{
     width: 100%;
     background-color: #222222;
-    /* position: fixed; */
-    height: 80px;
     position: fixed;
+    height: 80px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -98,6 +108,8 @@ border-radius: 4px;
  .buttons{
     display: flex;
     color: white;
+    flex-wrap: wrap;
+    align-items: center;
     
  }   
 
@@ -108,6 +120,7 @@ border-radius: 4px;
     align-content: center;
     align-items: center;
     padding: 0 10px;
+    flex-wrap: wrap;
     
 } 
 
@@ -120,4 +133,12 @@ border-radius: 4px;
     color: red;
     padding: 30px 15px;
     
+}
+
+.user-webcam figure{
+    position: relative;
+}
+
+.green{
+    color: rgb(81, 180, 81);
 }
