@@ -12,7 +12,7 @@
 
 .container{
     margin: 0 auto;
-    padding: 30px 30px 40px 30px;
+    padding: 30px 30px 40px;
 }
 .debug{
     border: solid 1px white;
@@ -21,11 +21,13 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px 10px;
+    gap: 10px 8px;
+    
+    
 
 }
 
 .user-webcam{
     background-color: white;
-    flex-basis: calc((100% / 7) - 30px);
+    flex-basis: calc((100% / 7) - 150px);
 }
