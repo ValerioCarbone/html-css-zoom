@@ -96,6 +96,7 @@ border-radius: 4px;
     /* bottom: 0;
     left: 0;
     right: 0;*/
+    display: flex;
 }
 
 
@@ -106,6 +107,7 @@ border-radius: 4px;
     align-items: center;
     height: 100%;
     width: 100%;
+    flex-shrink: 0;
 }
 
  .buttons{
